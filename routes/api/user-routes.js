@@ -49,6 +49,7 @@ router.post('/', (req, res) => {
   });
 });
 
+<<<<<<< HEAD
 router.post('/login', (req, res) => {
   // expects {email: 'lernantino@gmail.com', password: 'password1234'}
   User.findOne({
@@ -74,13 +75,18 @@ router.post('/login', (req, res) => {
   });
 });
 
+=======
+>>>>>>> feature/user-model
 // PUT /api/users/1
 router.put('/:id', (req, res) => {
     // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
 
   // if req.body has exact key/value pairs to match the model, you can just use `req.body` instead
   User.update(req.body, {
+<<<<<<< HEAD
     individualHooks: true,
+=======
+>>>>>>> feature/user-model
     where: {
       id: req.params.id
     }

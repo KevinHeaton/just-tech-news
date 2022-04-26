@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
@@ -14,15 +15,41 @@
   "version": "1.0.0",
   "main": "server.js",
   "devDependencies": {},
+=======
+  "name": "just-tech-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+>>>>>>> feature/user-model
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinHeaton/just-tech-news.git"
   },
+<<<<<<< HEAD
   "keywords": [],
+=======
+>>>>>>> feature/user-model
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KevinHeaton/just-tech-news/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/KevinHeaton/just-tech-news#readme"
+=======
+  "homepage": "https://github.com/KevinHeaton/just-tech-news#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+>>>>>>> feature/user-model
 }
