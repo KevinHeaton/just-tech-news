@@ -22,6 +22,7 @@ const sess = {
 app.use(session(sess));
 
 const helpers = require('./utils/helpers');
+const router = require('./controllers/api');
 
 const hbs = exphbs.create({ helpers });
 
