@@ -10,7 +10,8 @@
     "sequelize": "^6.19.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "jest"
   },
   "name": "just-tech-news",
   "description": "",
@@ -26,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/KevinHeaton/just-tech-news/issues"
   },
-  "homepage": "https://github.com/KevinHeaton/just-tech-news#readme"
+  "homepage": "https://github.com/KevinHeaton/just-tech-news#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
